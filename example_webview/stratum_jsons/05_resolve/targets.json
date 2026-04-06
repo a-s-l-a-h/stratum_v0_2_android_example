@@ -1,0 +1,12 @@
+{
+  "enabled": true,
+  "closure_mode": "parents_only",
+  "targets": [
+    { "fqn": "android.app.Activity" },
+    { "fqn": "android.webkit.WebView" },
+    { "fqn": "android.webkit.WebSettings" },
+    { "fqn": "android.webkit.WebChromeClient", "notes": "CRITICAL: Needed for Title Bar Hack" },
+    { "fqn": "android.webkit.ValueCallback", "notes": "CRITICAL: Needed for evaluateJavascript" },
+    { "fqn": "java.lang.Runnable", "notes": "CRITICAL: Needed for background UI threads" }
+  ]
+}
