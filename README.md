@@ -1,46 +1,60 @@
-# Stratum Android Examples (v0.2) – Chaquopy + Python 3.10
 
-This repository contains Android example projects demonstrating how to use **Stratum v0.2** with **Python (via Chaquopy)**.
+---
+
+# 🚀 Stratum Android Examples (v0.2) – Chaquopy + Python 3.10
+
+<p align="center">
+  <b>Android + Python integration using Stratum & Chaquopy</b><br/>
+  Clean examples • Ready to run • Beginner friendly
+</p>
 
 ---
 
 ## 📦 Included Examples
 
-* `example_camera`
-* `example_camera_opencv`
-* `example_counter`
-* `example_webview`
-* `example_xml_ui`
+<div align="center">
+
+| Example                 | Preview                                                                                                  |
+| ----------------------- | -------------------------------------------------------------------------------------------------------- |
+| `example_counter`       | <img src="https://github.com/user-attachments/assets/c4c6a004-f64c-4533-ae52-208716a5ed72" width="220"/> |
+| `example_xml_ui`        | <img src="https://github.com/user-attachments/assets/7b7ee3f8-863f-4b39-8b48-9d5ee14cdc64" width="220"/> |
+| `example_camera_opencv` | <sub>Canny Edge Detection</sub><br/><br/><img src="https://github.com/user-attachments/assets/27eec2fa-4aa9-4327-a9b3-964bcc263f0e" width="220"/> |
+
+</div>
 
 ---
 
 ## ⚙️ Requirements
 
-* Android Studio
-* Python **3.10**
-* Java **17**
+<div align="center">
 
-> ⚠️ These examples are specifically built for **Stratum v0.2** and **Python 3.10**
+| Tool           | Version  |
+| -------------- | -------- |
+| Android Studio | Latest   |
+| Python         | **3.10** |
+| Java           | **17**   |
+
+</div>
+
+> ⚠️ These examples are strictly built for **Stratum v0.2 + Python 3.10**
 
 ---
 
-## Python 3.10 + Chaquopy Setup
-
-These projects use **Chaquopy** to run Python inside Android.
+##  Python 3.10 + Chaquopy Setup
 
 ### 🔹 Step 1: Install Python 3.10
 
-Install Python 3.10 and note the path:
+Install Python and note the path:
 
-```text id="x4r2hj"
+```text
 C:/Python310/python.exe
 ```
 
 ---
 
-### 🔹 Step 2: Configure in `build.gradle` (Module: app)
+### 🔹 Step 2: Configure `build.gradle` (Module: app)
 
-```gradle id="o9b3kl"
+```gradle
 chaquopy {
     defaultConfig {
         version = "3.10"
@@ -61,11 +75,11 @@ chaquopy {
 
 ---
 
-### 🔹 Why Python 3.10 is Required?
+## ❓ Why Python 3.10?
 
-* The included `.whl` (Stratum library) is built for **Python 3.10**
-* Using another Python version may cause build/runtime issues
-* Chaquopy uses your local Python to build dependencies
+* The included `.whl` is built specifically for **Python 3.10**
+* Other versions may cause build or runtime issues
+* Chaquopy depends on your local Python version
 
 ---
 
@@ -73,46 +87,63 @@ chaquopy {
 
 ### ✅ Stratum `.whl`
 
-* Location: `app/libs/`
-* Already included in each example
-* Built for **Stratum v0.2 usage**
+* 📍 Location: `app/libs/`
+* Already included in all examples
+* Built for **Stratum v0.2**
 
 ---
 
-## 🚀 Run the Examples
+## ▶️ Run the Examples
 
-1. Open any example in Android Studio
+```bash
+1. Open project in Android Studio
 2. Sync Gradle
-3. Run on device/emulator
+3. Run on emulator/device
+```
 
 ---
 
-## 🧩 `stratum_jsons` (Reference)
+## 🧩 `stratum_jsons` Structure
 
-Inside each example:
-
-```id="p2k7mz"
+```
 stratum_jsons/
  ├── 02_inspect/
  │    └── targets.json
  ├── 05_5_abstract/
- │    └── targets.json   (optional – not required for all examples)
+ │    └── targets.json   (optional)
  └── 05_resolve/
       └── targets.json
 ```
 
-### 🔹 What are these?
+### 🔹 What is this?
 
-* These JSON files are used in each example’s **Stratum library build**
-* They are part of **Stratum v0.2 pipeline stages**
+* Defines **Stratum pipeline stages**
+* Used internally by the Stratum build system
+* Included for reference in each example
 
 ---
 
 ## 📌 Summary
 
-* Built for **Stratum v0.2**
-* Python **3.10 required**
-* `.whl` already included → ready to run
-* `stratum_jsons` used for Stratum build pipeline
+* ✅ Built for **Stratum v0.2**
+*  Requires **Python 3.10**
+* 📦 `.whl` included → no extra setup
+* ⚙️ Ready-to-run Android examples
+* 🧩 Includes Stratum pipeline configs
+
+---
+
+## 💡 Tips
+
+* Keep Python path correct in `build.gradle`
+* Don’t upgrade Python unless `.whl` supports it
+* If build fails → recheck Chaquopy config
+
+---
+
+<p align="center">
+  💡 Are you using Stratum? Let us know what you think!<br/>
+  Your feedback helps shape future updates and examples.
+</p>
 
 ---
