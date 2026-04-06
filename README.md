@@ -8,7 +8,16 @@
   Clean examples • Ready to run • Beginner friendly
 </p>
 
+https://github.com/a-s-l-a-h/stratum/tree/v0.2
+
 ---
+
+## 📌 Example Branch
+
+This example is based on the **v0.2 branch**:
+
+👉 https://github.com/a-s-l-a-h/stratum/tree/v0.2
+
 
 ## 📦 Included Examples
 
