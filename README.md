@@ -8,7 +8,6 @@
   Clean examples • Ready to run • Beginner friendly
 </p>
 
-https://github.com/a-s-l-a-h/stratum/tree/v0.2
 
 ---
 
