@@ -18,7 +18,9 @@
 | ----------------------- | -------------------------------------------------------------------------------------------------------- |
 | `example_counter`       | <img src="https://github.com/user-attachments/assets/c4c6a004-f64c-4533-ae52-208716a5ed72" width="220"/> |
 | `example_xml_ui`        | <img src="https://github.com/user-attachments/assets/7b7ee3f8-863f-4b39-8b48-9d5ee14cdc64" width="220"/> |
-| `example_camera_opencv` | <sub>Canny Edge Detection</sub><br/><br/><img src="https://github.com/user-attachments/assets/27eec2fa-4aa9-4327-a9b3-964bcc263f0e" width="220"/> |
+| `example_camera_opencv` | <sub>Canny Edge Detection</sub><br/><br/><img src="https://github.com/user-attachments/assets/53372701-45ca-496a-b4fd-48d1e94b61be" width="220"/> |
+
+
 
 </div>
 
